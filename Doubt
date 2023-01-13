@@ -1,5 +1,5 @@
 class Main {
-	public static void minElement(int A[]){
+	public static int[] minElement(int A[]){
 		int N = A.length;
 		int B[] = new int[N];
 		int m = N-1;
@@ -8,12 +8,12 @@ class Main {
 			m--;
 			
 		}
-		System.out.print(B);
+		return B;
 	}
 	public static void main(String args[]) {
 		// Your code goes here
 		int A[] = { 10 , 4 , 2, 8, 4 ,20, -23 , 90};
-		minElement(A);
-		
+		int b[] = minElement(A);
+		System.out.print(b);
 	}
 }
