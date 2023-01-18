@@ -8,3 +8,5 @@ You are given an integer T (number of test cases). You are given array A and an 
 You are given an array print the minimum element of that array
 # FirstAndLastIndex
 Given an array A and an integer B . Find first and last index of B in A. It's guaranted that B exists in A , retuen an array C of size 2 where c[0] is the first index of B in A and c[1] is the last index of B in A.
+# AdjacentElementsEqualToK
+Given an array A , return true if the sum of two adjacent elements is to equal to K.
